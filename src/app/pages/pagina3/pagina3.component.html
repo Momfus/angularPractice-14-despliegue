@@ -8,4 +8,13 @@
 </ul>
 
 
+
+
+<p>Para tener el sitio subido, se puede usar un gestor FTP como Filezilla cuando se lanza en producción a la aplicación</p>
+
+<p>Al subirlo puede generar un problema en el archivo index.html porque dice que la base url es "/" (raiz) cosa que si coloco en una zona particular url no es asi</p>
+<p>Este y varios problemas (como que busca luego las sub-paginas) se explican en detalle en el video 276 del curso de Angular de Cero a Experto de Fernando Herrera en Udemy</p>
+
+<p>Una solución mayormente usada es ir a app-routing.module.ts y decir que en importes use hash</p>
+
 <h3>http-server NO ES DE ANGULAR, se usa para probar simple las aplicaciones</h3>
